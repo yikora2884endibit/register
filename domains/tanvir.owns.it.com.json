@@ -1,0 +1,15 @@
+{
+    "description": "Tanvir's personal website",
+    "domain": "owns.it.com",
+    "subdomain": "tanvir",
+    "owner": {
+        "repo": "https://github.com/SkyfallWasTaken/tanvir.owns.it.com",
+        "email": "opendomains@skyfall.33mail.com"
+    },
+    "record": {
+        "CNAME": [
+            "tanvir.xyz"
+        ]
+    },
+    "proxied": false
+} 
