@@ -7,9 +7,10 @@ const requiredRecordsToProxy = ["A", "AAAA", "CAA", "CNAME", "MX", "NS", "SRV"];
 function validateProxiedRecords(t, data, file) {
     if (data.proxied) {
         const hasProxiedRecord = Object.keys(data.record || {}).some((key) => requiredRecordsToProxy.includes(key));
-
         t.true(hasProxiedRecord, `${file}: Proxied is true but there are no records that can be proxied`);
+        return true;
     }
+    return false;
 }
 
 const domainsPath = path.resolve("domains");
@@ -29,18 +30,29 @@ t("Domains with proxy enabled should have at least one record that can be proxie
     // Get files from both directories
     const mainFiles = getJsonFiles(domainsPath);
     const reservedFiles = getJsonFiles(reservedPath);
+    
+    let foundProxied = false;
 
     // Process main domain files
     mainFiles.forEach((file) => {
         const filePath = path.join(domainsPath, file);
         const domain = fs.readJsonSync(filePath);
-        validateProxiedRecords(t, domain, file);
+        if (validateProxiedRecords(t, domain, file)) {
+            foundProxied = true;
+        }
     });
 
     // Process reserved domain files
     reservedFiles.forEach((file) => {
         const filePath = path.join(reservedPath, file);
         const domain = fs.readJsonSync(filePath);
-        validateProxiedRecords(t, domain, file);
+        if (validateProxiedRecords(t, domain, file)) {
+            foundProxied = true;
+        }
     });
+
+    // If no proxied domains were found, make a passing assertion
+    if (!foundProxied) {
+        t.pass("No domains with proxied=true found");
+    }
 });
