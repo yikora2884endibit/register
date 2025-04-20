@@ -109,3 +109,4 @@ https://discord.gg/kVjkg6VBwa
 
 ### License
 This project is under a [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
+
