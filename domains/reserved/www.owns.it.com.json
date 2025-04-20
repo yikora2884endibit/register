@@ -10,5 +10,5 @@
         "CNAME": "owns.it.com"
     },
 
-    "proxied": false
+    "proxied": true
 }
