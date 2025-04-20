@@ -25,7 +25,7 @@ jobs:
         with:
           repository: domainsproject/raw
           path: raw
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RAW_PUSH_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -44,4 +44,4 @@ jobs:
           user-name: domains-bot
           commit-message: "Update Data via domainsproject/testing"
         env:
-          API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
+          API_TOKEN_GITHUB: ${{ secrets.RAW_PUSH_TOKEN }}
