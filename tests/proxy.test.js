@@ -13,18 +13,34 @@ function validateProxiedRecords(t, data, file) {
 }
 
 const domainsPath = path.resolve("domains");
+const reservedPath = path.join(domainsPath, "reserved");
 
-// Filter to only include files (exclude directories)
-const files = fs.readdirSync(domainsPath).filter((file) => {
-    const filePath = path.join(domainsPath, file);
-    return fs.lstatSync(filePath).isFile();
-});
+// Helper function to get all JSON files from a directory
+function getJsonFiles(dirPath) {
+    if (!fs.existsSync(dirPath)) return [];
+    return fs.readdirSync(dirPath)
+        .filter(file => {
+            const filePath = path.join(dirPath, file);
+            return fs.lstatSync(filePath).isFile() && file.endsWith('.json');
+        });
+}
 
 t("Domains with proxy enabled should have at least one record that can be proxied", (t) => {
-    files.forEach((file) => {
+    // Get files from both directories
+    const mainFiles = getJsonFiles(domainsPath);
+    const reservedFiles = getJsonFiles(reservedPath);
+
+    // Process main domain files
+    mainFiles.forEach((file) => {
         const filePath = path.join(domainsPath, file);
         const domain = fs.readJsonSync(filePath);
+        validateProxiedRecords(t, domain, file);
+    });
 
+    // Process reserved domain files
+    reservedFiles.forEach((file) => {
+        const filePath = path.join(reservedPath, file);
+        const domain = fs.readJsonSync(filePath);
         validateProxiedRecords(t, domain, file);
     });
 });
