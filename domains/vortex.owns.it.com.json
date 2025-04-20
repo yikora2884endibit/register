@@ -1,6 +1,6 @@
 {
     "description": "Receiving emails and things :)",
-    "domain": "is-local.org",
+    "domain": "owns.it.com",
     "subdomain": "vortex",
     "owner": {
         "repo": "https://github.com/SkyfallWasTaken/vortex.email",
@@ -12,4 +12,4 @@
         ]
     },
     "proxied": false
-}
+} 
