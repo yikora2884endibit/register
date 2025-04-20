@@ -1,0 +1,14 @@
+{
+    "description": "Parent domain for owns.it.com subdomains",
+    "domain": "owns.it.com",
+    "owner": {
+        "email": "hey@tanvir.io"
+    },
+    "record": {
+        "NS": [
+            "raina.ns.cloudflare.com",
+            "tony.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+} 
