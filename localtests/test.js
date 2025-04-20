@@ -154,11 +154,7 @@ function askQuestion(query) {
     //==================== SECTION 4: FILENAME FORMAT VALIDATION ====================//
     if (selectedSections.includes(4)) {
         const validRootDomains = [
-            'is-a-fullstack.dev',
-            'is-cool.dev',
-            'is-local.org',
-            'is-not-a.dev',
-            'localplayer.dev'
+            'owns.it.com'
         ];
 
         fs.readdir(domainsDir, (err, files) => {

@@ -13,14 +13,14 @@ const optionalOwnerFields = {
 
 const ignoredRootJSONFiles = ["package-lock.json", "package.json"];
 
-const domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev"];
+const domains = [".owns.it.com"];
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const hostnameRegex = /^(?=.{1,253}$)(?:(?:[_a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)\.)+[a-zA-Z]{2,63}$/;
 
 const domainsPath = path.resolve("domains");
 const utilsPath = path.resolve("utils");
-const rootDomainFiles = ["is-a-fullstack.dev.json", "is-cool.dev.json", "is-local.org.json", "is-not-a.dev.json", "localplayer.dev.json"];
+const rootDomainFiles = ["owns.it.com.json"];
 
 // Load reserved subdomains list
 let reservedSubdomains = [];
@@ -36,7 +36,7 @@ try {
 
 const files = fs.readdirSync(domainsPath);
 
-const Domains = [".is-a-fullstack.dev", ".is-cool.dev", ".is-local.org", ".is-not-a.dev", ".localplayer.dev"];
+const Domains = [".owns.it.com"];
 
 function validateRequiredFields(t, obj, requiredFields, file) {
     Object.keys(requiredFields).forEach((key) => {

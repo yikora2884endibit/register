@@ -1,0 +1,14 @@
+{
+    "domain": "owns.it.com",
+    "subdomain": "www",
+
+    "owner": {
+        "email": "sys@owns.it.com"
+    },
+
+    "record": {
+        "CNAME": "owns.it.com"
+    },
+
+    "proxied": false
+}
