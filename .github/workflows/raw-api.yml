@@ -42,6 +42,6 @@ jobs:
           destination-repository-name: raw
           user-email: bot@domainsproject.dev
           user-name: domains-bot
-          commit-message: "Update Data via domainsproject/testing"
+          commit-message: "Update Data via domainsproject/register"
         env:
           API_TOKEN_GITHUB: ${{ secrets.RAW_PUSH_TOKEN }}
