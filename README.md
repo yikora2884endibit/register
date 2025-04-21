@@ -1,10 +1,6 @@
-<h1 align='center'>The Domains Project</h1>
-
 <p align="center">
   <img src="media/promo.gif" alt="Demo" width="100%" />
 </p>
-
-<p align="center">Free subdomains for developers, personal sites, and open-source projects.</p>
 
 ## 🌐 Available Domains
 
