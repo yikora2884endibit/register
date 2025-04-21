@@ -1,10 +1,7 @@
 # The Domains Project
 
 <p align="center">
-  <video width="100%" controls>
-    <source src="media/promo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="media/promo.gif" alt="Demo" width="100%" />
 </p>
 
 <p align="center">Free subdomains for developers, personal sites, and open-source projects.</p>
