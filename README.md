@@ -61,8 +61,8 @@ All our domains include:
 
 If you find this service valuable:
 
-1. **Donate**: Support our infrastructure costs via [Stripe](https://donate.stripe.com/cN2eYpaDl4NR21qaEE)
-2. **Join**: Connect with us on [Discord](https://discord.gg/kVjkg6VBwa)
+1. **Donate**: Support our infrastructure costs via [Stripe](https://dub.sh/sponsor-a-domain)
+2. **Join**: Connect with us on [Discord](https://discord.gg/jtVHRF9CdK)
 3. **Share**: Star and share this project
 
 > **Special Note**: NS records are available exclusively for donors.
