@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "URL": "https://getyourfree.space"
+        "A": ["192.0.2.1"]
     },
 
     "proxied": false
