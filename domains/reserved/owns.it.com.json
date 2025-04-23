@@ -3,12 +3,12 @@
     "subdomain": "@",
 
     "owner": {
-        "email": "sys@owns.it.com"
+        "email": "hey@tanvir.io"
     },
 
     "record": {
         "A": ["192.0.2.1"]
     },
 
-    "proxied": false
+    "proxied": true
 }

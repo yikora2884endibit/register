@@ -3,12 +3,12 @@
     "subdomain": "www",
 
     "owner": {
-        "email": "sys@owns.it.com"
+        "email": "hey@tanvir.io"
     },
 
     "record": {
-        "CNAME": "owns.it.com"
+        "A": ["192.0.2.1"]
     },
 
-    "proxied": false
+    "proxied": true
 }
