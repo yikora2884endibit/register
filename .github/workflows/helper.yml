@@ -28,7 +28,7 @@ jobs:
       - name: Fetch merged.md content
         if: steps.pr-merge-check.outputs.result == 'true'
         run: |
-          curl -o merged.md https://raw.githubusercontent.com/open-domains/.github/main/merged.md
+          curl -o merged.md https://raw.githubusercontent.com/domainsproject/register/refs/heads/main/merged.md
 
       # Post the content of merged.md as a comment using the custom token
       - name: Post comment on PR

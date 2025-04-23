@@ -1,13 +1,13 @@
 # All Files
-* @open-domains/owners
+* @domainsproject/owners
 
 
 # Reserved Domains
-domains/reserved/* @open-domains/owners
+domains/reserved/* @domainsproject/owners
 
 # User Domains
-domains/* @open-domains/maintainers
+domains/* @domainsproject/maintainers
 
 # MD Files
-README.md @open-domains/maintainers
-terms.md @open-domains/owners
+README.md @domainsproject/maintainers
+terms.md @domainsproject/owners

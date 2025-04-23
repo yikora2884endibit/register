@@ -1,6 +1,6 @@
 ## Pull Request Merged
 
-<a href="https://www.buymeacoffee.com/andrewstech" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me a Coffee" height="28" width="119"></a> 
+❤️ Support this project by <a href="https://dub.sh/sponsor-a-domain" target="_blank">making a donation</a>
 
 ---
 
@@ -21,6 +21,6 @@ For HTTPS, you will have to configure an SSL certificate to allow the new subdom
 
 ---
 
-**Need help with your domain?** If you have troubles setting up your domain, please [create an issue](https://github.com/open-domains/register/issues/new/choose) and we will try and help you as soon as possible!
+**Need help with your domain?** If you have troubles setting up your domain, please [create an issue](https://github.com/domainsproject/register/issues/new/choose) and we will try and help you as soon as possible!
 
 **Made a mistake in the records?** Don't worry, you can create a new pull request with the corrections.
