@@ -1,0 +1,13 @@
+{
+    "description": "Fuaad",
+    "domain": "owns.it.com",
+    "subdomain": "fuaad",
+    "owner": {
+        "repo": "https://github.com/HeyFuaad",
+        "email": "hey@fua.ad"
+    },
+    "record": {
+        "TXT": ["vc-domain-verify=fuaad.owns.it.com,1fd631eceee04c27265a"]
+    },
+    "proxied": false
+}
