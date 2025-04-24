@@ -7,7 +7,8 @@
         "email": "hey@fua.ad"
     },
     "record": {
-        "TXT": ["vc-domain-verify=fuaad.owns.it.com,1fd631eceee04c27265a"]
+        "TXT": ["vc-domain-verify=fuaad.owns.it.com,1fd631eceee04c27265a"],
+        "CNAME": "cname.vercel-dns.com"
     },
     "proxied": false
 }
