@@ -7,6 +7,6 @@
 		"instagram": "hossain_gearhead"
 	},
 	"record": {
-		"TXT": "vc-domain-verify=gearhead.owns.it.com,b595131f345b529a3738"
+		"CNAME": "cname.vercel-dns.com"
 	}
 }
