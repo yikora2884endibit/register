@@ -54,6 +54,27 @@ We offer the following domain for registration:
 5. **Wait for Review**: We'll review and merge your request (review times vary; join our [Discord](https://discord.gg/jtVHRF9CdK) and let us know about your PR to expedite the process)
 6. **Domain Active**: Allow up to 24 hours for DNS propagation (typically 5-15 minutes)
 
+## 🔧 Common Providers
+
+We provide detailed setup guides for various hosting providers. All guides are available at [getyourfree.space/providers](https://getyourfree.space/providers/).
+
+### Available Setup Guides
+
+- [Cloudflare Pages](https://getyourfree.space/providers/cloudflare-pages) - Complete guide for setting up with Cloudflare Pages
+- [Codeberg Pages](https://getyourfree.space/providers/codeberg-pages) - Guide for Codeberg Pages setup
+- [DanBot Hosting](https://getyourfree.space/providers/danbot-hosting) - DanBot Hosting integration guide
+- [Discord](https://getyourfree.space/providers/discord-domain) - Discord integration setup
+- [GitHub Pages](https://getyourfree.space/providers/github-pages) - GitHub Pages configuration guide
+- [Hashnode](https://getyourfree.space/providers/hashnode) - Hashnode setup instructions
+- [ImprovMX](https://getyourfree.space/providers/improvmx) - Email forwarding with ImprovMX
+- [Netlify](https://getyourfree.space/providers/netlify) - Netlify deployment guide
+- [Railway](https://getyourfree.space/providers/railway) - Railway platform setup
+- [Render](https://getyourfree.space/providers/render) - Render deployment instructions
+- [Replit](https://getyourfree.space/providers/replit) - Replit integration guide
+- [Vercel](https://getyourfree.space/providers/vercel) - Vercel deployment setup
+
+Each guide provides detailed instructions for setting up your subdomain with the respective service. Choose your preferred platform and follow the corresponding guide for setup instructions.
+
 ## ⚙️ Domain Features
 
 All our domains include:
