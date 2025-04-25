@@ -2,6 +2,16 @@
   <img src="media/promo.gif" alt="Demo" width="100%" />
 </p>
 
+## 📢 Announcements & Status Updates
+
+Please join our Discord server for announcements, updates & upgrades, and downtime notifications regarding the service. While critical updates will be posted on GitHub, all announcements will be available in our Discord server.
+
+<p align="center">
+  <a href="https://discord.gg/jtVHRF9CdK">
+    <img alt="Discord Server" src="https://invidget.wdh.app/jtVHRF9CdK"/>
+  </a>
+</p>
+
 ## 🌐 Available Domains
 
 We offer the following domain for registration:
@@ -56,6 +66,27 @@ All our domains include:
 - ✅ TLS 1.2+ Required
 - ✅ WAF Protection
 - ✅ Browser Integrity Checks
+
+
+## 🔒 NS Records
+
+When applying for NS records, please be aware that we already support a wide range of DNS records, so you may not need them. To request NS records:
+
+1. **Explain Your Need**: In your PR, provide a detailed explanation of why you need NS records
+2. **Provide Examples**: Include specific use cases and examples
+3. **Follow Guidelines**: Review our FAQ for allowed usage guidelines
+
+> **Note**: Pull requests for NS records without sufficient justification will be closed. However, donors automatically qualify for NS record access - see our Support section for details.
+
+## ⚠️ Report Abuse
+
+If you discover any subdomains being used for malicious purposes or violating our terms:
+
+1. Create a GitHub issue with the title "Abuse Report: subdomain.owns.it.com"
+2. Provide evidence of the abuse
+3. Include any relevant timestamps and details
+
+We take abuse reports seriously and will investigate promptly.
 
 ## 💝 Support Us
 
