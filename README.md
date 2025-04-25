@@ -51,7 +51,7 @@ We offer the following domain for registration:
 ```
 
 4. **Submit PR**: Create a pull request with your changes
-5. **Wait for Review**: We'll review and merge your request
+5. **Wait for Review**: We'll review and merge your request (review times vary; join our [Discord](https://discord.gg/jtVHRF9CdK) and let us know about your PR to expedite the process)
 6. **Domain Active**: Allow up to 24 hours for DNS propagation (typically 5-15 minutes)
 
 ## ⚙️ Domain Features
