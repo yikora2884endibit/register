@@ -4,12 +4,12 @@
     "subdomain": "souvikarjun",
     
     "owner": {
-        "repo": "https://github.com/Souvikarjun",
+        "repo": "https://github.com/Souvikarjun/portfolio101",
         "email": "souvikarjundeb@gmail.com"
     },
     
     "record": {
-        "CNAME": "souvikarjun.vercel.app"
+        "CNAME": "souvikarjun.github.io"
     },
     
     "proxied": false
