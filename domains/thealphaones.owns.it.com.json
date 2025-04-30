@@ -1,5 +1,5 @@
 {
-    "description": "Brief project description",
+    "description": "Alpha TAo web",
     "domain": "owns.it.com",
     "subdomain": "thealphaones",
     
@@ -10,7 +10,7 @@
     
     "record": {
 
-        "CNAME": "cname.vercel-dns.com",
+        "CNAME": "cname.vercel-dns.com.",
     },
     
     "proxied": false
