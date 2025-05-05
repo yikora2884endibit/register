@@ -1,0 +1,17 @@
+{
+    "description": "membek dolka",
+    "domain": "owns.it.com",
+    "subdomain": "dolka",
+    
+    "owner": {
+        "repo": "https://github.com/ea0hw33",
+        "email": "dolka@gmail.com"
+    },
+    
+    "record": {
+
+        "CNAME": "cname.vercel-dns.com.",
+    },
+    
+    "proxied": false
+}
