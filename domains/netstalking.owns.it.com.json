@@ -7,9 +7,7 @@
         "email": "outlook_0D12FFF3AE1F5E26@outlook.com"
     },
     "record": {
-        "A": [
-            "1.1.1.1"
-        ]
+        "A": ["1.1.1.1"]
     },
     "proxied": false
 }
