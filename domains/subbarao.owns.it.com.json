@@ -1,12 +1,12 @@
 {
   "description": "My personal website",
-  "repo": "https://github.com/subbarao6338/repo",
+  "repo": "https://github.com/Subbarao6338/repo",
   "owner": {
-    "username": "your-github-username",
-    "email": "yourname@example.com"
+    "username": "Subbarao6338",
+    "email": "necs6338@gmail.com"
   },
   "records": {
-    "CNAME": "username.github.io"
+    "CNAME": "Subbarao6338.github.io"
   },
   "proxied": false
 }
