@@ -1,0 +1,16 @@
+{
+    "description": "simrow Personal Website",
+    "domain": "owns.it.com",
+    "subdomain": "simrow",
+    
+    "owner": {
+        "repo": "https://github.com/simrov",
+        "email": "simrowhelpme@gmail.com"
+    },
+    
+    "record": {
+        "A": ["5.128.117.22"],
+    },
+    
+    "proxied": false
+}
