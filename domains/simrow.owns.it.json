@@ -1,0 +1,11 @@
+{
+    "description": "simrow Personal Website",
+    "domain": "owns.it.com",
+    "subdomain": "simrow",
+  
+    "record": {
+        "A": ["5.128.117.22"],
+    },
+    
+    "proxied": false
+}
