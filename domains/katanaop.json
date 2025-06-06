@@ -7,7 +7,12 @@
     "email": "turbodizel888@yandex.com"
   },
   "record": {
-    "CNAME": "katanaop.turbodizel888.workers.dev"
+    "TXT": [
+      {
+        "name": "_lhr.katanaop.owns.it.com",
+        "value": "25e5c8fc-6c5e-418a-919c-47ab2f24057f"
+      }
+    ]
   },
-  "proxied": true
+  "proxied": false
 }
