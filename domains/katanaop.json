@@ -1,0 +1,13 @@
+{
+  "description": "Babushka Bot Mini App",
+  "domain": "owns.it.com",
+  "subdomain": "katanaop",
+  "owner": {
+    "repo": "https://github.com/0677855489/babushka-bot",
+    "email": "turbodizel888@yandex.com"
+  },
+  "record": {
+    "CNAME": "katanaop.turbodizel888.workers.dev"
+  },
+  "proxied": true
+}
