@@ -8,8 +8,7 @@
     "email": "necs6338@gmail.com"
   },
   "record": {
-    "type": "CNAME",
-    "value": "subbarao.notion.site"
+    "CNAME": "subbarao.notion.site"
   },
   "proxied": false
 }
