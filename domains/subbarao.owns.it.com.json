@@ -1,12 +1,15 @@
 {
+  "subdomain": "subbarao",
+  "domain": "owns.it.com",
   "description": "My personal website",
   "repo": "https://github.com/Subbarao6338/subbu-apps-practise-coding",
   "owner": {
-    "username": "Subbarao6338",
+    "username": "subbarao6338",
     "email": "necs6338@gmail.com"
   },
-  "records": {
-    "CNAME": "subbarao.notion.site"
+  "record": {
+    "type": "CNAME",
+    "value": "subbarao.notion.site"
   },
   "proxied": false
 }
