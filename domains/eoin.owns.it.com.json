@@ -1,0 +1,16 @@
+{
+    "description": "Brief project description",
+    "domain": "owns.it.com",
+    "subdomain": "eoin",
+    
+    "owner": {
+        "repo": "https://github.com/Omega9",
+        "email": "nullnine@gmail.com"
+    },
+    
+    "record": {
+        "CNAME": "https://omega9.web.app"
+    },
+    
+    "proxied": false
+}
