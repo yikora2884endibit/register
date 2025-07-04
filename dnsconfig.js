@@ -101,25 +101,7 @@ domains.forEach(function (domainEntry) {
   // Handle TXT records
   if (domainData.record.TXT) {
     domainData.record.TXT.forEach(function (txt) {
-      if (typeof txt === "string") {
-        // Handle simple string TXT records
-        addRecord(domainData.domain, TXT(domainData.subdomain, txt));
-      } else if (txt.value) {
-        // Handle object TXT records with name and value
-        var txtSubdomain = domainData.subdomain;
-        if (txt.name) {
-          // Extract subdomain from full name if provided
-          var fullName = txt.name;
-          var domainSuffix = "." + domainData.domain;
-          if (fullName.endsWith(domainSuffix)) {
-            txtSubdomain = fullName.substring(
-              0,
-              fullName.length - domainSuffix.length
-            );
-          }
-        }
-        addRecord(domainData.domain, TXT(txtSubdomain, txt.value));
-      }
+      addRecord(domainData.domain, TXT(domainData.subdomain, txt));
     });
   }
 
