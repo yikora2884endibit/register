@@ -4,11 +4,11 @@
     "subdomain": "tangoserv",
     
     "owner": {
-        "repo": "https://github.com/detorxis",
+        "repo": "https://github.com/detorxis"
     },
     
     "record": {
-        "A": ["95.188.77.143"],
+        "A": ["95.188.77.143"]
     },
     
     "proxied": false
