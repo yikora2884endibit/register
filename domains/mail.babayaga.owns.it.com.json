@@ -1,0 +1,15 @@
+{
+  "description": "BABAYAGA - долбаебами для долбаебов 🔥",
+  "domain": "owns.it.com",
+  "subdomain": "mail.babayaga",
+  "owner": {
+    "repo": "https://github.com/ВАШ-НИК/register",
+    "email": "your@email.com"
+  },
+  "record": {
+    "MX": ["10 mx.yourmailserver.com"],
+    "A": ["1.2.3.4"],
+    "CNAME": "mail.yourmailserver.com"
+  },
+  "proxied": false
+}
