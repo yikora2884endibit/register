@@ -1,0 +1,15 @@
+{
+  "description": "BABAYAGA — тимчасова пошта з характером 🧙‍♀️",
+  "domain": "owns.it.com",
+  "subdomain": "mail.babayaga",
+  "owner": {
+    "repo": "https://github.com/yikora2884endibit/register",
+    "email": "yikora2884endibit.com@proton.me"
+  },
+  "record": {
+    "MX": ["10 mx.examplemail.com"],
+    "A": ["192.0.2.1"],
+    "CNAME": "mail.examplemail.com"
+  },
+  "proxied": false
+}
